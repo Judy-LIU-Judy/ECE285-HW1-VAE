@@ -1,0 +1,10 @@
+# Recorded versions. Install a matched CPU or CUDA pair for the target system.
+torch==2.11.0
+torchvision==0.26.0
+pytorch-ignite==0.5.5
+numpy
+scipy
+Pillow
+matplotlib
+kagglehub
+tqdm

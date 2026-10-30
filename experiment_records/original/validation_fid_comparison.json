@@ -1,0 +1,31 @@
+{
+  "reference_split": "validation",
+  "ignite_version": "0.5.5",
+  "preprocessing": "ImageClassification(\n    crop_size=[299]\n    resize_size=[342]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "results": {
+    "baseline": {
+      "checkpoint_epoch": 18,
+      "validation_fid": 266.97282351567435,
+      "n_real": 517,
+      "n_generated": 517
+    },
+    "beta4": {
+      "checkpoint_epoch": 20,
+      "validation_fid": 240.17163897281955,
+      "n_real": 517,
+      "n_generated": 517
+    },
+    "resize_beta4": {
+      "checkpoint_epoch": 19,
+      "validation_fid": 256.52045105138006,
+      "n_real": 517,
+      "n_generated": 517
+    },
+    "beta4_extended": {
+      "checkpoint_epoch": 39,
+      "validation_fid": 229.94246916466503,
+      "n_real": 517,
+      "n_generated": 517
+    }
+  }
+}

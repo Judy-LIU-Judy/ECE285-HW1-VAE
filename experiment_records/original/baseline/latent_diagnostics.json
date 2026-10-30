@@ -1,0 +1,8 @@
+{
+  "epoch": 20,
+  "mean_absolute_latent_mean": 0.48481494188308716,
+  "average_latent_std": 0.876095712184906,
+  "min_latent_std": 0.6252971291542053,
+  "max_latent_std": 1.572713017463684,
+  "average_posterior_std": 0.07050041854381561
+}

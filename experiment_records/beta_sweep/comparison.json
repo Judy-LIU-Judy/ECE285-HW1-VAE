@@ -1,0 +1,66 @@
+{
+  "reference_split": "validation",
+  "n_reference": 517,
+  "evaluation_seed": 2026,
+  "latent_draw_size": 624,
+  "latent_selection": "First 517 vectors for the full dataset",
+  "feature_extractor": "torchvision Inception v3 IMAGENET1K_V1, penultimate 2048 features",
+  "preprocessing": "ImageClassification(\n    crop_size=[299]\n    resize_size=[342]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "ignite_version": "0.5.5",
+  "IS_protocol": "One score over all generated images; no split-wise standard deviation",
+  "selection": "Best validation total loss within each beta; lowest validation FID across betas",
+  "limitations": "One seed; small validation set; ImageNet features; no untouched final test evaluation",
+  "results": {
+    "beta_0p1": {
+      "beta": 0.1,
+      "checkpoint_epoch": 39,
+      "validation_fid": 280.278743763539,
+      "inception_score": 1.4317029666508563,
+      "posterior_mean_reconstruction_mse": 0.0028222122047694555,
+      "validation_loss_at_selection": {
+        "loss": 593.4049127161849,
+        "reconstruction": 579.249235879983,
+        "kl": 141.55675239489204
+      },
+      "n_real": 517,
+      "n_generated": 517,
+      "mean_absolute_aggregate_latent_mean": 0.8377813100814819,
+      "average_aggregate_latent_std": 1.1276311874389648,
+      "average_posterior_std": 0.022888213396072388
+    },
+    "beta_0p3": {
+      "beta": 0.3,
+      "checkpoint_epoch": 39,
+      "validation_fid": 269.6971448269995,
+      "inception_score": 1.4944042190871487,
+      "posterior_mean_reconstruction_mse": 0.002807121122223496,
+      "validation_loss_at_selection": {
+        "loss": 613.1431740736823,
+        "reconstruction": 579.4148805127614,
+        "kl": 112.4276363881921
+      },
+      "n_real": 517,
+      "n_generated": 517,
+      "mean_absolute_aggregate_latent_mean": 0.5982367992401123,
+      "average_aggregate_latent_std": 0.9311623573303223,
+      "average_posterior_std": 0.036189693957567215
+    },
+    "beta_1p0": {
+      "beta": 1.0,
+      "checkpoint_epoch": 40,
+      "validation_fid": 254.50678856664126,
+      "inception_score": 1.5910253257877136,
+      "posterior_mean_reconstruction_mse": 0.002829269298876508,
+      "validation_loss_at_selection": {
+        "loss": 682.5774387381755,
+        "reconstruction": 594.6400220859904,
+        "kl": 87.9374128005952
+      },
+      "n_real": 517,
+      "n_generated": 517,
+      "mean_absolute_aggregate_latent_mean": 0.42980700731277466,
+      "average_aggregate_latent_std": 0.9009280204772949,
+      "average_posterior_std": 0.06775853782892227
+    }
+  }
+}

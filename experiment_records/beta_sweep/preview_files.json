@@ -1,0 +1,10 @@
+[
+  "train/PNEUMONIA/person1411_bacteria_3607.jpeg",
+  "train/PNEUMONIA/person475_bacteria_2020.jpeg",
+  "train/PNEUMONIA/person1383_bacteria_3521.jpeg",
+  "train/NORMAL/NORMAL2-IM-1018-0001.jpeg",
+  "train/NORMAL/NORMAL2-IM-0809-0001.jpeg",
+  "train/PNEUMONIA/person378_virus_761.jpeg",
+  "train/PNEUMONIA/person1361_bacteria_3477.jpeg",
+  "train/NORMAL/NORMAL2-IM-1105-0001.jpeg"
+]

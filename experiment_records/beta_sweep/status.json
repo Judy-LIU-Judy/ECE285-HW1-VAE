@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "experiments": [
+    "beta_0p1",
+    "beta_0p3",
+    "beta_1p0"
+  ]
+}

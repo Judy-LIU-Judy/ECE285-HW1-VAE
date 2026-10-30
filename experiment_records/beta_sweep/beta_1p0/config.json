@@ -1,0 +1,16 @@
+{
+  "schema": "clarity_sweep_v2",
+  "architecture": "Original three-stage convolutional VAE",
+  "image_size": 64,
+  "latent_dim": 32,
+  "obs_std": 0.1,
+  "beta": 1.0,
+  "seed": 42,
+  "batch_size": 64,
+  "epochs": 40,
+  "learning_rate_epochs_1_to_20": 0.001,
+  "learning_rate_epochs_21_to_40": 0.0003,
+  "validation_seed": 2027,
+  "validation_protocol": "Sampled posterior with fixed validation noise",
+  "split_fingerprint": "a33acb660139c7af2dd376b2b8425b009158eee082d12e7c4c418f34afcc18e7"
+}

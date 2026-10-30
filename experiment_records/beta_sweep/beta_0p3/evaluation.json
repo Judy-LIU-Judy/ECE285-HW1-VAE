@@ -1,0 +1,17 @@
+{
+  "beta": 0.3,
+  "checkpoint_epoch": 39,
+  "validation_fid": 269.6971448269995,
+  "inception_score": 1.4944042190871487,
+  "posterior_mean_reconstruction_mse": 0.002807121122223496,
+  "validation_loss_at_selection": {
+    "loss": 613.1431740736823,
+    "reconstruction": 579.4148805127614,
+    "kl": 112.4276363881921
+  },
+  "n_real": 517,
+  "n_generated": 517,
+  "mean_absolute_aggregate_latent_mean": 0.5982367992401123,
+  "average_aggregate_latent_std": 0.9311623573303223,
+  "average_posterior_std": 0.036189693957567215
+}

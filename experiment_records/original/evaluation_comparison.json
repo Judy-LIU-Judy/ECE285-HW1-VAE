@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "experiment": "baseline",
+    "checkpoint_epoch": 18,
+    "n_real": 624,
+    "n_generated": 624,
+    "seed": 2026,
+    "FID": 279.22571576692667,
+    "Inception_Score": 1.3944085835178897,
+    "IS_protocol": "Single score over all generated samples",
+    "feature_extractor": "torchvision Inception v3 IMAGENET1K_V1",
+    "preprocessing": "ImageClassification(\n    crop_size=[299]\n    resize_size=[342]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "ignite_version": "0.5.5"
+  },
+  "beta4": {
+    "experiment": "beta4",
+    "checkpoint_epoch": 20,
+    "n_real": 624,
+    "n_generated": 624,
+    "seed": 2026,
+    "FID": 255.23439175389152,
+    "Inception_Score": 1.5989165135440229,
+    "IS_protocol": "Single score over all generated samples",
+    "feature_extractor": "torchvision Inception v3 IMAGENET1K_V1",
+    "preprocessing": "ImageClassification(\n    crop_size=[299]\n    resize_size=[342]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "ignite_version": "0.5.5"
+  }
+}
